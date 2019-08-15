@@ -1,0 +1,13 @@
+{
+  "name": "parcel-cache-bug",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "parcel index.html --open"
+  },
+  "main": "index.js",
+  "author": "Ivan Pazhitnykh <ivan.pazhitnykh@gmail.com> (https://github.com/Drapegnik)",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel": "^2.0.0-alpha.1.1"
+  }
+}

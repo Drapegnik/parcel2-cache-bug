@@ -2,9 +2,11 @@
   "name": "parcel-cache-bug",
   "version": "1.0.0",
   "scripts": {
-    "start": "parcel index.html --open"
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html",
+    "clean": "rm -rf .parcel-cache dist"
   },
-  "main": "index.js",
+  "main": "dist/index.html",
   "author": "Ivan Pazhitnykh <ivan.pazhitnykh@gmail.com> (https://github.com/Drapegnik)",
   "license": "MIT",
   "devDependencies": {
